@@ -20,9 +20,9 @@ str2+=" "})
 
 #打
 
-let strQ="問題str"
+let strQ="問題str1"
 
-let strA="答案str"
+let strA="答案str2"
 
 let arrQ=strQ.split("1")
 let arrA=strA.split(" ")
