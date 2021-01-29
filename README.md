@@ -1,6 +1,7 @@
 # online
 
 #取
+
 let qtexts=document.querySelectorAll(".qtext")
 let str=""
 qtexts.forEach((item)=>{str+=item.innerHTML;str+="1"})
@@ -13,6 +14,7 @@ fb.forEach((item)=>{str2+=item.innerHTML.match(/[A-z]+/g)[4];
 str2+=" "})
 
 #打
+
 let strQ="問題str"
 
 let strA="答案str"
