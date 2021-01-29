@@ -3,10 +3,15 @@
 #取
 
 let qtexts=document.querySelectorAll(".qtext")
+
 let str=""
+
 qtexts.forEach((item)=>{str+=item.innerHTML;str+="1"})
+
 let fb=document.querySelectorAll(".feedback div")
+
 let str2=""
+
 fb.forEach((item)=>{str2+=item.innerHTML.match(/[A-z]+/g)[4];
  if(item.innerHTML.match(/[A-z]+/g)[5]){str2+=item.innerHTML.match(/[A-z]+/g)[5]};
  if(item.innerHTML.match(/[A-z]+/g)[6]){str2+=item.innerHTML.match(/[A-z]+/g)[6]};
