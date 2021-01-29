@@ -31,6 +31,7 @@ let arrA=strA.split(" ")
 let inp=document.querySelectorAll(".form-control")
 
 let question=document.querySelectorAll(".qtext")
+
 for(let i=0;i<20;i++){  
      for(let j=0;j<20;j++){
 	if(question[i].innerText==arrQ[j]){
