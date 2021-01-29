@@ -25,14 +25,15 @@ let strQ="問題str1"
 let strA="答案str2"
 
 let arrQ=strQ.split("1")
+
 let arrA=strA.split(" ")
 
 let inp=document.querySelectorAll(".form-control")
+
 let question=document.querySelectorAll(".qtext")
 for(let i=0;i<20;i++){  
      for(let j=0;j<20;j++){
 	if(question[i].innerText==arrQ[j]){
-	console.log(question[i].innerText)
           inp[i].value=arrA[j]}
       }
     }
